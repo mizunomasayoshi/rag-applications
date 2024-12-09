@@ -22,5 +22,6 @@
 			"label": "Jupyter Notebook",
 			"onAutoForward": "openBrowser"
 		}
-	}
+	},
+	"postCreateCommand": "pip install -r requirements.txt"
 }
